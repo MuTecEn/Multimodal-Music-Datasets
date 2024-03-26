@@ -1,18 +1,9 @@
-| Macro Task               | Specific Task                    | Modalities                                               | Datasets                                                   |
-|--------------------------|----------------------------------|----------------------------------------------------------|------------------------------------------------------------|
-| Classification           | Emotion/Affect Recognition      | Audio, Lyrics, Physiological, Genre Labels               | AMC, CAL500, EmoMV, IMAC, MER, MERP, NAVER Music, PMEmo, Hu et al., Laurier et al., Trochidis et al. |
-|                          | Genre Classification            | Audio, Lyrics, Video, Tags                               | LMD-ALigned, MSD-I, MuMu, Mayer et al., Orio et al., Schindler et al. |
-|                          | Tonic Identification            | Audio, Note-level information                            | Turkish Makam Music                                        |
-|                          | Tune Identification             | Audio, Annotation                                        | CompMusic Art Indian Music, Saraga Music Research          |
-|                          | Music Gesture Classification   | Audio, Video, EMG, IMU, Image, Text, MIDI               | Sarasua Datasets, Chang et al., Gan et al.                 |
-|                          | Singing Voice Analysis          | Voice, Speech                                            | Vocal92                                                    |
-|                          | Auto-Tagging                    | Audio, Annotations                                       | MTG-Jamendo                                                |
-| Time-Dependent Representation | Source Separation            | Audio, MIDI                                              | CocoChorales, MUSIC-21, TRIOS                              |
-|                          | Piano Tutoring                  | Audio, Manually and Automated-extracted MIDI             | Benetos et al.                                             |
-|                          | Music Segmentation              | Audio, MIDI, Annotation                                  | Cheng et al., Hargreaves, Gregorio et al.                  |
-|                          | Music Transcription             | Audio, MIDI, Note Annotations                            | Camera-PrIMuS, CocoChorales, MAPS, MedleyDB, MIREX, MIREX multi-f0, Norwegian Hardanger Fiddle, Alfaro-Contreras et al., Gu et al., Poliner et al. |
-|                          | Time-Dependent Pattern Detection | Audio, 3D Motion Data, Musical Scores                  | Kronland-Martinet et al.                                   |
-| Music Similarity         | Music Retrieval                 | Audio, Lyrics, Tags                                      | MSD, MSD-500                                               |
-|                          | Music Exploration and Discovery | Audio, Text, Melodic and Harmonic Annotations, Descriptive Labels | Music4All-Onion, Poltronieri, Watanabe et al.             |
-| Music Generation         | Music Generation                | Audio, Video                                             | AtinPiano, MUSIC, MusicCaps, URMP, Groux et al.           |
-| Multi-Task               | Multiple Specific Tasks         | Audio, Video, Text, Images, Scores, Motion Capture data | DALI, ENST-Drums, FMA, RWC, SDD, URMP, Essid et al.       |
+# Multimodal Music Datasets? Challenges and Future Goals in Music Processing
+
+This repository contains the code and supplementary materials for the paper titled "Defining Multimodal Music Datasets and Addressing Challenges in Their Construction and Evaluation."
+
+## Abstract
+The term "multimodal music dataset" is frequently utilized to depict music-related data representing music as a multimedia art form and a multimodal experience. However, the interpretation of "multimodality" can vary across related disciplines such as musicology, music psychology, and music technology. This paper proposes a comprehensive definition of multimodality that is applicable across different music disciplines. It addresses various challenges associated with constructing, evaluating, and utilizing multimodal music datasets. Additionally, the paper categorizes these datasets based on tasks and explores theoretical methodologies aimed at improving their future construction. It also sheds light on diverse data preprocessing methods and their contributions to transparent music analysis. Furthermore, evaluation metrics, methods, and benchmarks tailored for multimodal music processing tasks are scrutinized, empowering researchers to make informed decisions and facilitating cross-study comparisons.
+
+For any inquiries or suggestions, please contact [a.m.christodoulou@imv.uio.no].
+
