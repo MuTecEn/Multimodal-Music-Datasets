@@ -45,7 +45,7 @@ Overview of Multimodal Music Datasets Across Macro Tasks (Categories top to bott
 
 # Dataset Availability
 
-![Distribution of available datasets across different music tasks. The width of each bar represents the number of datasets associated with each task, providing insights into the availability of resources for various areas in music research and analysis.](image-url)
+![Distribution of available datasets across different music tasks. The width of each bar represents the number of datasets associated with each task, providing insights into the availability of resources for various areas in music research and analysis.](Fig3.eps)
 
 
 For any inquiries or suggestions, please contact [a.m.christodoulou@imv.uio.no].
