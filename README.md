@@ -43,4 +43,9 @@ Overview of Multimodal Music Datasets Across Macro Tasks (Categories top to bott
 |---------------------------------|-----------------------------------------------------|--------------------------------------------------------------------------------|
 | **Multiple Specific Tasks**     | AUD, IMG, MCP, MSC, TXT, VID                      | DALI, ENST-Drums, FMA, RWC, SDD, URMP, Essid et al.                            |
 
+# Dataset Availability
+
+![Distribution of available datasets across different music tasks. The width of each bar represents the number of datasets associated with each task, providing insights into the availability of resources for various areas in music research and analysis.](image-url)
+
+
 For any inquiries or suggestions, please contact [a.m.christodoulou@imv.uio.no].
