@@ -7,5 +7,5 @@ The term "multimodal music dataset" is frequently utilized to depict music-relat
 
 For any inquiries or suggestions, please contact [a.m.christodoulou@imv.uio.no].
 
-![Alt text](image-url)
+![Alt text]([image-url](https://github.com/MuTecEn/Multimodal-Music-Datasets/blob/main/Table%201.png)https://github.com/MuTecEn/Multimodal-Music-Datasets/blob/main/Table%201.png)
 ![Alt text](image-url)
