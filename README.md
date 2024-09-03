@@ -98,21 +98,21 @@ The list is being continuously updated. To contribute, please contact: a.m.chris
 
 ## Pre-processing Guidelines
 
-Crossmodal alignment
-Handling missing data across modalities
-Integrated feature extraction
-Consistent data normalization
-Coordinated dataset splitting
+-Crossmodal alignment
+-Handling missing data across modalities
+-Integrated feature extraction
+-Consistent data normalization
+-Coordinated dataset splitting
 
 ## Construction and Evaluation Criteria
 
-Diversity and representation
-Data quality and consistency
-Annotation and ground truth
-Modality interplay
-Generalization and robustness
-Usability and accessibility
-Real-world impact
+-Diversity and representation
+-Data quality and consistency
+-Annotation and ground truth
+-Modality interplay
+-Generalization and robustness
+-Usability and accessibility
+-Real-world impact
 
 ## Citation
 
