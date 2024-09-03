@@ -3,6 +3,12 @@
 [![License: ](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://img.shields.io/badge/DOI-10.1007%2Fs13735--024--00344--6-brightgreen)](https://doi.org/10.1007/s13735-024-00344-6)
 
+[Anna-Maria Christodoulou](https://www.uio.no/ritmo/english/people/phd-fellows/annammc/index.html)\<sup>1</sup>, 
+[Olivier Lartillot](https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html)\<sup>1</sup>,
+[Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/index.html)<sup>1</sup>,
+
+<sup>1</sup> RITMO, UiO 
+
 
 This repository contains information and supplementary materials for the paper titled "Defining Multimodal Music Datasets and Addressing Challenges in Their Construction and Evaluation."
 
@@ -51,5 +57,27 @@ Overview of Multimodal Music Datasets Across Macro Tasks (Categories top to bott
 
 ![Distribution of available datasets across different music tasks. The width of each bar represents the number of datasets associated with each task, providing insights into the availability of resources for various areas in music research and analysis.](Fig3.png)
 
+
+## Citation
+
+If you find this useful for your research, please consider citing our work:
+
+```bibtex
+@article{christodoulou_multimodal_2024,
+	title = {Multimodal music datasets? {Challenges} and future goals in music processing},
+	volume = {13},
+	issn = {2192-662X},
+	shorttitle = {Multimodal music datasets?},
+	url = {https://doi.org/10.1007/s13735-024-00344-6},
+	doi = {10.1007/s13735-024-00344-6},
+	number = {3},
+	urldate = {2024-08-29},
+	journal = {International Journal of Multimedia Information Retrieval},
+	author = {Christodoulou, Anna-Maria and Lartillot, Olivier and Jensenius, Alexander Refsum},
+	month = aug,
+	year = {2024},
+	pages = {37},
+}
+```
 
 For any inquiries or suggestions, please contact [a.m.christodoulou@imv.uio.no].
