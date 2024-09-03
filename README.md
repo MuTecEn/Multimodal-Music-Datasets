@@ -1,7 +1,8 @@
 # Multimodal Music Datasets? Challenges and Future Goals in Music Processing
 
 [![License: ](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
-[![DOI]](https://doi.org/10.1007/s13735-024-00344-6)
+[![DOI](https://img.shields.io/badge/DOI-10.1007%2Fs13735--024--00344--6-brightgreen)](https://doi.org/10.1007/s13735-024-00344-6)
+
 
 This repository contains information and supplementary materials for the paper titled "Defining Multimodal Music Datasets and Addressing Challenges in Their Construction and Evaluation."
 
