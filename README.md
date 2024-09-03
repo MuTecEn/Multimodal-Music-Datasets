@@ -28,63 +28,68 @@ The list is being continuously updated. To contribute, please contact: a.m.chris
 
 | Dataset Name | Modality | Number of Data | Specific Task | Macro Task |
 |---|---|---|---|---|
-| FMA | Audio, Video, Text, Music Scores, MIDI | 106574 | Emotion/Affect Recognition | Classification |
-| CAL500 | Audio, Text | 500 | Genre Classification | Classification |
-| EmoMV-A | Audio, Video | 4914 | Emotion/Affect Recognition | Classification |
-| EmoMV-B | Audio, Video | 616 | Emotion/Affect Recognition | Classification |
-| EmoMV-C | Audio, Video | 456 | Emotion/Affect Recognition | Classification |
-| IMAC | Audio, Video | 3812 | Music Gesture Classification | Classification |
-| TROMPA-MER | Audio, Text (Lyrics, Participant Information) | 1161 | Emotion/Affect Recognition | Classification |
-| MERP | Audio, Labels, Text (Lyrics, Participant Information) | 54 | Emotion/Affect Recognition | Classification |
-| NAVER Music | Audio, Images | 7484 | Emotion/Affect Recognition | Classification |
-| PMEmo | Audio, Images, Physiological Data | 794 | Emotion/Affect Recognition | Classification |
-| Hu et al | Audio, Text (Descriptive Labels, Lyrics, Participant Information) | 8784 | Genre Classification | Classification |
-| Laurier et al | Audio,Text (Descriptive Labels, Lyrics, Participant Information) | 1000 | Emotion/Affect Recognition | Classification |
-| Trochidis et al | Audio, Text (Descriptive Labels, Lyrics, Participant Information) | 100 | Genre Classification | Classification |
-| Turnbull et al | Audio, Text (Descriptive Labels, Lyrics, Participant Information) | 500 | Genre Classification | Classification |
-| LMD_Aligned | Audio, Scores, Model-based Features, Images (Album Covers), Text (Playlist Information, Lyrics) | 5164 | Music Gesture Classification | Classification |
-| MSD-I | Audio, Images (Album Covers), Text (Genre Annotations) | 30000 | Singing Voice Analysis | Classification |
-| MuMu | Images, Audio, Text (Album Reviews) | 147000 | Emotion/Affect Recognition | Classification |
-| Mayer et al | Audio, Text (Lyrics) | 3610 | Genre Classification | Classification |
-| Orio et al | Audio, Text | 2671 | Genre Classification | Classification |
-| Schnidler et al | Audio, Video | 2212 | Genre Classification | Classification |
-| Turkish Makam Music | Audio, Note-level Information | 257 | Genre Classification | Classification |
-| CompMusic Art Indian Music | Audio, Annotations | 117 | Emotion/Affect Recognition | Classification |
-| Saraga Music Research | Audio, Annotations | 563 | Genre Classification | Classification |
-| Sarasua | Audio, Video, Motion Capture, Physiological Data (EMG, ECG), Text, MIDI | 211 | Emotion/Affect Recognition | Classification |
-| Chang et al | Audio, Video, Motion Capture, Physiological Data (EMG, ECG), Text, MIDI |  | Auto-Tagging | Classification |
-| Vocal92 | Audio, Text, Annotations | 4453 | Singing Voice Analysis | Classification |
-| MTG Jamendo | Audio, Annotations | 55701 | Genre Classification | Classification |
-| CocoChorales | Audio, MIDI, Note Annotations | 240000 | Music Segmentation | Time-Dependent Representation |
-| MUSIC21 | Audio, Video | 365 | Music Generation | Music Generation |
-| TRIOS | Audio, MIDI |  | Music Transcription | Time-Dependent Representation |
-| Benetos et al | Audio, MIDI | 7 | Source Separation | Time-Dependent Representation |
-| Cheng et al | Audio | 13 | Source Separation | Time-Dependent Representation |
-| Hargreaves et al | Audio | 20 | Music Segmentation | Time-Dependent Representation |
-| Gregorio et al | Audio, MIDI | 217 | Music Transcription | Time-Dependent Representation |
-| Camera PrIMuS | Audio, Images | 87678 | Music Transcription | Time-Dependent Representation |
-| MAPS | Audio, MIDI |  | Music Transcription | Time-Dependent Representation |
-| MIREX multif0 | Audio, Annotations |  | Music Transcription | Time-Dependent Representation |
-| Norwegian Hardanger Fiddle | Audio, Annotations | 60 | Music Transcription | Time-Dependent Representation |
-| Gu et al | Audio, Video, IMU Data | 20 | Music Exploration and Discovery | Music Similarity |
-| Poliner et al | Audio, MIDI | 130 | Music Exploration and Discovery | Music Similarity |
-| Perez-Carillo et al | Audio, 3D Motion Data, Musical Score Information | 10 | Music Exploration and Discovery | Music Similarity |
-| MSD | Audio, Text, Annotations | 1000000 | Music Exploration and Discovery | Music Similarity |
-| MSD-500 | Audio, Text, Annotations |  | Music Exploration and Discovery | Music Similarity |
-| Music4AllOnion | Audio, Text | 109269 | Music Exploration and Discovery | Music Similarity |
-| Poltronieri et al | Audio, Annotations | 18 | Music Generation | Music Generation |
-| Watanabe et al | Lyrics, Audio Excerpts, Artist IDs | 433936 | Music Generation | Music Generation |
-| AtinPiano | Audio, Video |  | Piano Tutoring | Time-Dependent Representation |
-| MUSIC | Audio, Video | 685 | Song Retrieval | Music Similarity |
-| MusiCaps | Audio, Text | 5500 | Multi-Task | Multi-Task |
-| URMP | Audio, Video, Scores (MIDI, PDF), Annotations | 187 | Multi-Task | Multi-Task |
-| Groux et al | EEG, Audio, Video |  | Multi-Task | Multi-Task |
-| DALI | Audio, Lyrics | 5358 | Multi-Task | Multi-Task |
-| ENST-Drums | Audio, Video, Text, Music Scores, MIDI, Annotations | 187 | Multi-Task | Multi-Task |
-| MedleyDB | Audio, Genre Labels, Note Annotations | 122 | Multi-Task | Multi-Task |
-| RWC | Audio, Video, Text, Music Scores, MIDI, Annotations | 3544 | Multi-Task | Multi-Task |
-| SDD | Audio, Captions | 1100 | Multi-Task | Multi-Task |
-| Essid et al | Audio | Multi-Task | Multi-Task |
+| **Classification** | | | | |
+| FMA | Audio, Video, Text, Music Scores, MIDI, Annotations | 106574 | Emotion/Affect Recognition |  |
+| CAL500 | Audio, Text | 500 | Genre Classification |  |
+| EmoMV-A | Audio, Video | 4914 | Emotion/Affect Recognition |  |
+| EmoMV-B | Audio, Video | 616 | Emotion/Affect Recognition |  |
+| EmoMV-C | Audio, Video | 456 | Emotion/Affect Recognition |  |
+| IMAC | Audio, Video | 3812 | Music Gesture Classification |  |
+| TROMPA-MER | Audio, Text (Lyrics, Participant Information) | 1161 | Emotion/Affect Recognition |  |
+| MERP | Audio, Labels, Text (Lyrics, Participant Information) | 54 | Emotion/Affect Recognition |  |
+| NAVER Music | Audio, Images | 7484 | Emotion/Affect Recognition |  |
+| PMEmo | Audio, Images, Physiological Data | 794 | Emotion/Affect Recognition |  |
+| Hu et al | Audio, Text (Descriptive Labels, Lyrics, Participant Information) | 8784 | Genre Classification |  |
+| Laurier et al | Audio,Text (Descriptive Labels, Lyrics, Participant Information) | 1000 | Emotion/Affect Recognition |  |
+| Trochidis et al | Audio, Text (Descriptive Labels, Lyrics, Participant Information) | 100 | Genre Classification |  |
+| Turnbull et al | Audio, Text (Descriptive Labels, Lyrics, Participant Information) | 500 | Genre Classification |  |
+| LMD_Aligned | Audio, Scores, Model-based Features, Images (Album Covers), Text (Playlist Information, Lyrics) | 5164 | Music Gesture Classification |  |
+| MSD-I | Audio, Images (Album Covers), Text (Genre Annotations) | 30000 | Singing Voice Analysis |  |
+| MuMu | Images, Audio, Text (Album Reviews) | 147000 | Emotion/Affect Recognition |  |
+| Mayer et al | Audio, Text (Lyrics) | 3610 | Genre Classification |  |
+| Orio et al | Audio, Text | 2671 | Genre Classification |  |
+| Schnidler et al | Audio, Video | 2212 | Genre Classification |  |
+| Turkish Makam Music | Audio, Note-level Information | 257 | Genre Classification |  |
+| CompMusic Art Indian Music | Audio, Annotations | 117 | Emotion/Affect Recognition |  |
+| Saraga Music Research | Audio, Annotations | 563 | Genre Classification |  |
+| Sarasua | Audio, Video, Motion Capture, Physiological Data (EMG, ECG), Text, MIDI | 211 | Emotion/Affect Recognition |  |
+| Chang et al | Audio, Video, Motion Capture, Physiological Data (EMG, ECG), Text, MIDI |  | Auto-Tagging |  |
+| Vocal92 | Audio, Text, Annotations | 4453 | Singing Voice Analysis |  |
+| MTG Jamendo | Audio, Annotations | 55701 | Genre Classification |  |
+| **Time-Dependent Representation** | | | | |
+| CocoChorales | Audio, MIDI, Note Annotations | 240000 | Music Segmentation |  |
+| TRIOS | Audio, MIDI |  | Music Transcription |  |
+| Benetos et al | Audio, MIDI | 7 | Source Separation |  |
+| Cheng et al | Audio | 13 | Source Separation |  |
+| Hargreaves et al | Audio | 20 | Music Segmentation |  |
+| Gregorio et al | Audio, MIDI | 217 | Music Transcription |  |
+| Camera PrIMuS | Audio, Images | 87678 | Music Transcription |  |
+| MAPS | Audio, MIDI |  | Music Transcription |  |
+| MIREX multif0 | Audio, Annotations |  | Music Transcription |  |
+| Norwegian Hardanger Fiddle | Audio, Annotations | 60 | Music Transcription |  |
+| AtinPiano | Audio, Video |  | Piano Tutoring |  |
+| Watanabe et al | Lyrics, Audio Excerpts, Artist IDs | 433936 | Music Generation |  |
+| **Music Generation** | | | | |
+| MUSIC21 | Audio, Video | 365 | Music Generation |  |
+| Poltronieri et al | Audio, Annotations | 18 | Music Generation |  |
+| **Music Similarity** | | | | |
+| Gu et al | Audio, Video, IMU Data | 20 | Music Exploration and Discovery |  |
+| Poliner et al | Audio, MIDI | 130 | Music Exploration and Discovery |  |
+| Perez-Carillo et al | Audio, 3D Motion Data, Musical Score Information | 10 | Music Exploration and Discovery |  |
+| MSD | Audio, Text, Annotations | 1000000 | Music Exploration and Discovery |  |
+| MSD-500 | Audio, Text, Annotations |  | Music Exploration and Discovery |  |
+| Music4AllOnion | Audio, Text | 109269 | Music Exploration and Discovery |  |
+| MUSIC | Audio, Video | 685 | Song Retrieval |  |
+| **Multi-Task** | | | | |
+| MusiCaps | Audio, Text | 5500 | Multi-Task |  |
+| URMP | Audio, Video, Scores (MIDI, PDF), Annotations | 187 | Multi-Task |  |
+| Groux et al | EEG, Audio, Video |  | Multi-Task |  |
+| DALI | Audio, Lyrics | 5358 | Multi-Task |  |
+| ENST-Drums | Audio, Video, Text, Music Scores, MIDI, Annotations | 187 | Multi-Task |  |
+| MedleyDB | Audio, Genre Labels, Note Annotations | 122 | Multi-Task |  |
+| RWC | Audio, Video, Text, Music Scores, MIDI, Annotations | 3544 | Multi-Task |  |
+| SDD | Audio, Captions | 1100 | Multi-Task |  |
+| Essid et al | Audio |  | Multi-Task |  |
 
 
 # Dataset Availability
