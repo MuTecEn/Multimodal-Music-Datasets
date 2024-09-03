@@ -21,7 +21,7 @@ The term "multimodal music dataset" is frequently utilized to depict music-relat
 
 We propose to define multimodality as the deliberate integration of varied information sources tailored to specific tasks.
 
-## TABLE 1: 
+## Datasets 
 
 Multimodal music datasets, with corresponding modalities, number of data (file count), task and macro-task, according to our proposed categorization.
 The list is being continuously updated. To contribute, please contact: a.m.christodoulou@imv.uio.no
@@ -94,7 +94,7 @@ The list is being continuously updated. To contribute, please contact: a.m.chris
 
 # Dataset Availability
 
-![Distribution of available datasets across different music tasks. The width of each bar represents the number of datasets associated with each task, providing insights into the availability of resources for various areas in music research and analysis.](Fig3.png)
+![Distribution of available datasets across different music tasks.](Fig3.png)(Fig4.png)
 
 
 ## Citation
