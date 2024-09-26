@@ -28,8 +28,16 @@ The list is being continuously updated. To contribute, please contact: a.m.chris
 
 | Dataset Name | Modality | Number of Data | Specific Task | Macro Task |
 |---|---|---|---|---|
-| FMA [1] | Audio, Video, Text, Music Scores, MIDI, Annotations | 106574 | Emotion/Affect Recognition |  Classification |
+| Acoustic Event Dataset [38] | Audio, Text | 5223 | Acoustic Event Classification | Classification |
+| AIST Dance Video Database [39] | Audio, Video | 13940 | Dance classification |  |  |
+| AMG1608 [40] | Audio, Text | 1608 | Emotion/Affect Recognition |  |  | 
+| Ballroom [43] | Audio, Text | 698 | Dance Classification |  |  |
+| DEAM [46] | Audio, Text, Features | 1802 | Emotion/Affect Recognition |  |  | 
+| Emotion in Music Database [47] | Audio, Text | 1000 | Emotion/Affect Recognition |  |  |
+| Emotify [48] | Audio, Text | 100 | Emotion/Affect Recognition |  |  |
+| FMA [1] | Audio, Video, Text, Music Scores, MIDI, Annotations | 106574 | Emotion/Affect Recognition |  |  |
 | CAL500 | Audio, Text | 500 | Genre Classification |  |  |
+| CBFdataset [44] | Audio, Text | 10 performers | Music Playing Analysis |  |  | 
 | EmoMV-A [2] | Audio, Video | 4914 | Emotion/Affect Recognition |  |  |
 | EmoMV-B [2] | Audio, Video | 616 | Emotion/Affect Recognition |  |  |
 | EmoMV-C [2] | Audio, Video | 456 | Emotion/Affect Recognition |  |  |
@@ -55,13 +63,15 @@ The list is being continuously updated. To contribute, please contact: a.m.chris
 | Chang et al [16] | Audio, Video, Motion Capture, Physiological Data (EMG, ECG), Text, MIDI |  | Auto-Tagging |  |  |
 | Vocal92 [17] | Audio, Text, Annotations | 4453 | Singing Voice Analysis |  |  |
 | MTG Jamendo [18] | Audio, Annotations | 55701 | Genre Classification |  |  |
-| CocoChorales | Audio, MIDI, Note Annotations | 240000 | Music Segmentation |  Time-Dependent Representation  |
+| ASAP [41] | Audio, MIDI, MusicXML | 1068 MIDI files, 520 audio files, 222 scores  | Music Transcription  | Time-Dependent Representation  |
+| CocoChorales | Audio, MIDI, Note Annotations | 240000 | Music Segmentation |  |
 | TRIOS | Audio, MIDI |  | Music Transcription |  |  |
 | Benetos et al [19] | Audio, MIDI | 7 | Source Separation |  |  |
 | Cheng et al [20] | Audio | 13 | Source Separation |  |  |
 | Hargreaves et al [21] | Audio | 20 | Music Segmentation |  |  |
 | Gregorio et al [22] | Audio, MIDI | 217 | Music Transcription |  |  |
 | Camera PrIMuS [23] | Audio, Images | 87678 | Music Transcription |  |  |
+| ADC2004 [37] | Audio, Text | 20 | Music Transcription (Polyphonic Melody) | | |
 | MAPS [24] | Audio, MIDI |  | Music Transcription |  |  |
 | MIREX multif0 | Audio, Annotations |  | Music Transcription |  |  |
 | Norwegian Hardanger Fiddle [25] | Audio, Annotations | 60 | Music Transcription |  |  |
@@ -77,7 +87,10 @@ The list is being continuously updated. To contribute, please contact: a.m.chris
 | MSD-500 | Audio, Text, Annotations |  | Music Exploration and Discovery |  |  |
 | Music4AllOnion [31] | Audio, Text | 109269 | Music Exploration and Discovery |  |  |
 | MUSIC | Audio, Video | 685 | Song Retrieval |  |  |
-| MusiCaps | Audio, Text | 5500 | Multi-Task |  Multi-Task  |
+| AudioSet [42] | Audio, Video, Text | 2084320 clips | Multi-Task | Multi-Task |
+| Dagstuhl ChoirSet [45] | Audio, MIDI, Note Annotations | 81 | Multi-Task |  |
+| Erkomaishvili Dataset [49] | Audio, Video, Scores, Annotations | 118 | Multi-Task |  |  |
+| MusiCaps | Audio, Text | 5500 | Multi-Task |  |
 | URMP | Audio, Video, Scores (MIDI, PDF), Annotations | 187 | Multi-Task |  |  |
 | Groux et al | EEG, Audio, Video |  | Multi-Task |  |  |
 | DALI [32] | Audio, Lyrics | 5358 | Multi-Task |  |  |
@@ -168,5 +181,19 @@ If you find this useful for your research, please consider citing our work:
 - [34] Bittner R, Salamon J, Tierney M, et al (2014) MedleyDB: A multitrack dataset for annotation-intensive MIR research. In: Proceedings - 15th international society for music information retrieval conference (ISMIR 2014)
 - [35] Goto M, Hashiguchi H, Nishimura T, et al (2002) RWC music database: music genre database and musical instrument sound database. In: Proceedings of the 3rd international society for music information retrieval conference, pp 287–288
 - [36] Essid S, Richard G (2012) Fusion of multimodal information in music content analysis. Multimodal Music Process 3:16. https://doi.org/10.4230/DFU.VOL3.11041.37
+- [37] G. Poliner, D. Ellis (2005). A Classification Approach to Melody Transcription. Proc. Int. Conf. on Music Info. Retrieval ISMIR-05, London, September 2005. (6pp)
+- [38] Naoya Takahashi, Michael Gygli, Beat Pfister and Luc Van Gool, "Deep Convolutional Neural Networks and Data Augmentation for Acoustic Event Recognition", 
+ Proc. Interspeech 2016, San Fransisco. https://data.vision.ee.ethz.ch/cvl/ae_dataset/
+- [39] Shuhei Tsuchida, Satoru Fukayama, Masahiro Hamasaki and Masataka Goto. AIST Dance Video Database: Multi-genre, Multi-dancer, and Multi-camera Database for Dance Information Processing. In Proceedings of the 20th International Society for Music Information Retrieval Conference (ISMIR 2019), 2019.
+- [40] Y. -A. Chen, Y. -H. Yang, J. -C. Wang and H. Chen, "The AMG1608 dataset for music emotion recognition," 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), South Brisbane, QLD, Australia, 2015, pp. 693-697, doi: 10.1109/ICASSP.2015.7178058.
+- [41] Foscarin, F., Mcleod, A., Rigaux, P., Jacquemard, F., & Sakai, M. (2020). ASAP: a dataset of aligned scores and performances for piano transcription. International Society for Music Information Retrieval Conference.
+- [42] J. F. Gemmeke et al., "Audio Set: An ontology and human-labeled dataset for audio events," 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), New Orleans, LA, USA, 2017, pp. 776-780, doi: 10.1109/ICASSP.2017.7952261.
+- [43] https://mtg.upf.edu/ismir2004/contest/tempoContest/node5.html
+- [44] Changhong Wang, Emmanouil Benetos, & Elaine Chew. (2019). CBFdataset: A Dataset of Chinese Bamboo Flute Performances (1.0) [Data set]. International Society for Music Information Retrieval Conference (ISMIR), Delft, The Netherlands. Zenodo. https://doi.org/10.5281/zenodo.3250223
+- [45] Sebastian Rosenzweig, Helena Cuesta, Christof Weiß, Frank Scherbaum, Emilia Gómez, and Meinard Müller, Dagstuhl ChoirSet: A Multitrack Dataset for MIR Research on Choral Singing, Transactions of the International Society for Music Information Retrieval (TISMIR), 3(1): 98–110, 2020.
+- [46] Soleymani et al., https://cvml.unige.ch/databases/DEAM/
+- [47] https://cvml.unige.ch/databases/emoMusic/
+- [48] A. Aljanaki, F. Wiering, R. C. Veltkamp. Studying emotion induced by music through a crowdsourcing game. Information Processing & Management, 2015.
+- [49] Sebastian Rosenzweig, Frank Scherbaum, David Shugliashvili, Vlora Arifi-Müller, and Meinard Müller, Erkomaishvili Dataset: A Curated Corpus of Traditional Georgian Vocal Music for Computational Musicology, Transactions of the International Society for Music Information Retrieval (TISMIR), 3(1): 31–41, 2020.
 
 For any inquiries or suggestions, please contact [a.m.christodoulou@imv.uio.no].
