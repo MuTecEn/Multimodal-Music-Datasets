@@ -41,6 +41,7 @@ The list is being continuously updated. To contribute, please contact: a.m.chris
 | EmoMV-A [2] | Audio, Video | 4914 | Emotion/Affect Recognition |  |  |
 | EmoMV-B [2] | Audio, Video | 616 | Emotion/Affect Recognition |  |  |
 | EmoMV-C [2] | Audio, Video | 456 | Emotion/Affect Recognition |  |  |
+| Greek Music Dataset [50] | Audio, MIDI, Text | 1400 | Genre Classification |  |  | 
 | IMAC | Audio, Video | 3812 | Music Gesture Classification |  |  |
 | TROMPA-MER [3] | Audio, Text (Lyrics, Participant Information) | 1161 | Emotion/Affect Recognition |  |  |
 | MERP [4] | Audio, Labels, Text (Lyrics, Participant Information) | 54 | Emotion/Affect Recognition |  |  |
@@ -72,6 +73,7 @@ The list is being continuously updated. To contribute, please contact: a.m.chris
 | Gregorio et al [22] | Audio, MIDI | 217 | Music Transcription |  |  |
 | Camera PrIMuS [23] | Audio, Images | 87678 | Music Transcription |  |  |
 | ADC2004 [37] | Audio, Text | 20 | Music Transcription (Polyphonic Melody) | | |
+| Groove Midi Dataset [51] | MIDI, Text, Audio | 1150 | Music Transcription (Drum) |  |  |
 | MAPS [24] | Audio, MIDI |  | Music Transcription |  |  |
 | MIREX multif0 | Audio, Annotations |  | Music Transcription |  |  |
 | Norwegian Hardanger Fiddle [25] | Audio, Annotations | 60 | Music Transcription |  |  |
@@ -195,5 +197,7 @@ If you find this useful for your research, please consider citing our work:
 - [47] https://cvml.unige.ch/databases/emoMusic/
 - [48] A. Aljanaki, F. Wiering, R. C. Veltkamp. Studying emotion induced by music through a crowdsourcing game. Information Processing & Management, 2015.
 - [49] Sebastian Rosenzweig, Frank Scherbaum, David Shugliashvili, Vlora Arifi-Müller, and Meinard Müller, Erkomaishvili Dataset: A Curated Corpus of Traditional Georgian Vocal Music for Computational Musicology, Transactions of the International Society for Music Information Retrieval (TISMIR), 3(1): 31–41, 2020.
+- [50] Karydis et al., 2015. The Greek Music Dataset. https://cir.di.ionio.gr/karydis/my_papers/MKarydisS2015%20-%20The%20Greek%20Music%20Dataset.pdf
+- [51] Gillick et al., 2019. Learning to Groove with Inverse Sequence Transformations. https://magenta.tensorflow.org/datasets/groove
 
 For any inquiries or suggestions, please contact [a.m.christodoulou@imv.uio.no].
