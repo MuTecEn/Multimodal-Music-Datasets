@@ -49,6 +49,7 @@ The list is being continuously updated. To contribute, please contact: a.m.chris
 | NAVER Music | Audio, Images | 7484 | Emotion/Affect Recognition |  |  |
 | PMEmo [5] | Audio, Images, Physiological Data | 794 | Emotion/Affect Recognition |  |  |
 | Hu et al [6] | Audio, Text (Descriptive Labels, Lyrics, Participant Information) | 8784 | Genre Classification |  |  |
+| IRMAS [55] | Audio, Text (Instrument annotation) | 2874 | Instrument Recognition |  |  |
 | Laurier et al [7] | Audio,Text (Descriptive Labels, Lyrics, Participant Information) | 1000 | Emotion/Affect Recognition |  |  |
 | Trochidis et al [8] | Audio, Text (Descriptive Labels, Lyrics, Participant Information) | 100 | Genre Classification |  |  |
 | Turnbull et al [9] | Audio, Text (Descriptive Labels, Lyrics, Participant Information) | 500 | Genre Classification |  |  |
@@ -205,5 +206,6 @@ If you find this useful for your research, please consider citing our work:
 - [52] Q. Xi, R. Bittner, J. Pauwels, X. Ye, and J. P. Bello, "​Guitarset: A Dataset for Guitar Transcription", in 19th International Society for Music Information Retrieval Conference, Paris, France, Sept. 2018.
 - [53] Homburg, Helge and Mierswa,Ingo and Moller, Bulent and Morik, Katharina and Wurst, Michael. A Benchmark Dataset for Audio Classification and Clustering. In Joshua D. Reiss and Geraint A. Wiggins (editors), Proc. of the International Symposium on Music Information Retrieval 2005, pages 528--531, London, UK, Queen Mary University, 2005.
 - [54] https://www.idmt.fraunhofer.de/en/publications/datasets.html
+- [55] Bosch, J. J., Janer, J., Fuhrmann, F., & Herrera, P. “A Comparison of Sound Segregation Techniques for Predominant Instrument Recognition in Musical Audio Signals”, in Proc. ISMIR (pp. 559-564), 2012
 
 For any inquiries or suggestions, please contact [a.m.christodoulou@imv.uio.no].
