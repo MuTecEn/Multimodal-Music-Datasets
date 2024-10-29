@@ -42,6 +42,7 @@ The list is being continuously updated. To contribute, please contact: a.m.chris
 | EmoMV-B [2] | Audio, Video | 616 | Emotion/Affect Recognition |  |  |
 | EmoMV-C [2] | Audio, Video | 456 | Emotion/Affect Recognition |  |  |
 | Greek Music Dataset [50] | Audio, MIDI, Text | 1400 | Genre Classification |  |  | 
+| Music Audio Benchmark [53] | Audio, Text (Genre Annotations) | Genre Classification |  |  |
 | IMAC | Audio, Video | 3812 | Music Gesture Classification |  |  |
 | TROMPA-MER [3] | Audio, Text (Lyrics, Participant Information) | 1161 | Emotion/Affect Recognition |  |  |
 | MERP [4] | Audio, Labels, Text (Lyrics, Participant Information) | 54 | Emotion/Affect Recognition |  |  |
@@ -65,7 +66,8 @@ The list is being continuously updated. To contribute, please contact: a.m.chris
 | Vocal92 [17] | Audio, Text, Annotations | 4453 | Singing Voice Analysis |  |  |
 | MTG Jamendo [18] | Audio, Annotations | 55701 | Genre Classification |  |  |
 | ASAP [41] | Audio, MIDI, MusicXML | 1068 MIDI files, 520 audio files, 222 scores  | Music Transcription  | Time-Dependent Representation  |
-| CocoChorales | Audio, MIDI, Note Annotations | 240000 | Music Segmentation |  |
+| CocoChorales | Audio, MIDI, Note Annotations | 240000 | Music Segmentation |  |  |
+| GuitarSet [52] | Audio, Text (Pitch Annotations) | 360 | Music Transcription (Guitar) |  |  |
 | TRIOS | Audio, MIDI |  | Music Transcription |  |  |
 | Benetos et al [19] | Audio, MIDI | 7 | Source Separation |  |  |
 | Cheng et al [20] | Audio | 13 | Source Separation |  |  |
@@ -97,6 +99,7 @@ The list is being continuously updated. To contribute, please contact: a.m.chris
 | Groux et al | EEG, Audio, Video |  | Multi-Task |  |  |
 | DALI [32] | Audio, Lyrics | 5358 | Multi-Task |  |  |
 | ENST-Drums [33] | Audio, Video, Text, Music Scores, MIDI, Annotations | 187 | Multi-Task |  |  |
+| IDMT-SMT [54] | Audio, Text (annotations) | 64702 | Multi-Task |  |  |
 | MedleyDB [34] | Audio, Genre Labels, Note Annotations | 122 | Multi-Task |  |  |
 | RWC [35] | Audio, Video, Text, Music Scores, MIDI, Annotations | 3544 | Multi-Task |  |  |
 | SDD | Audio, Captions | 1100 | Multi-Task |  |  |
@@ -199,5 +202,8 @@ If you find this useful for your research, please consider citing our work:
 - [49] Sebastian Rosenzweig, Frank Scherbaum, David Shugliashvili, Vlora Arifi-Müller, and Meinard Müller, Erkomaishvili Dataset: A Curated Corpus of Traditional Georgian Vocal Music for Computational Musicology, Transactions of the International Society for Music Information Retrieval (TISMIR), 3(1): 31–41, 2020.
 - [50] Karydis et al., 2015. The Greek Music Dataset. https://cir.di.ionio.gr/karydis/my_papers/MKarydisS2015%20-%20The%20Greek%20Music%20Dataset.pdf
 - [51] Gillick et al., 2019. Learning to Groove with Inverse Sequence Transformations. https://magenta.tensorflow.org/datasets/groove
+- [52] Q. Xi, R. Bittner, J. Pauwels, X. Ye, and J. P. Bello, "​Guitarset: A Dataset for Guitar Transcription", in 19th International Society for Music Information Retrieval Conference, Paris, France, Sept. 2018.
+- [53] Homburg, Helge and Mierswa,Ingo and Moller, Bulent and Morik, Katharina and Wurst, Michael. A Benchmark Dataset for Audio Classification and Clustering. In Joshua D. Reiss and Geraint A. Wiggins (editors), Proc. of the International Symposium on Music Information Retrieval 2005, pages 528--531, London, UK, Queen Mary University, 2005.
+- [54] https://www.idmt.fraunhofer.de/en/publications/datasets.html
 
 For any inquiries or suggestions, please contact [a.m.christodoulou@imv.uio.no].
