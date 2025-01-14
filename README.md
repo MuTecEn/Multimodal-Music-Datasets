@@ -75,6 +75,8 @@ The list is being continuously updated. To contribute, please contact: a.m.chris
 | TRIOS | Audio, MIDI |  | Music Transcription |  |  |
 | Benetos et al [19] | Audio, MIDI | 7 | Source Separation |  |  |
 | Cheng et al [20] | Audio | 13 | Source Separation |  |  |
+| Ganseman et al. [66] | Audio, MIDI | 128 instruments | Source Separation |  |  |
+| Slakh [67] | Audio, MIDI | 2100 | Source Separation, Music Transcription |  |  |
 | Hargreaves et al [21] | Audio | 20 | Music Segmentation |  |  |
 | Gregorio et al [22] | Audio, MIDI | 217 | Music Transcription |  |  |
 | Camera PrIMuS [23] | Audio, Images | 87678 | Music Transcription |  |  |
@@ -84,12 +86,12 @@ The list is being continuously updated. To contribute, please contact: a.m.chris
 | MIREX multif0 | Audio, Annotations |  | Music Transcription |  |  |
 | Norwegian Hardanger Fiddle [25] | Audio, Annotations | 60 | Music Transcription |  |  |
 | ORCHSET [56] | Audio, Annotations | 64 | Music Transcription (Melody Extraction) |  |  |
+| modal [62] | Audio, Onset Annotations | 72 | Onset Detection |  |  |
 | AtinPiano [26] | Audio, Video |  | Piano Tutoring |  |  |
 | Watanabe et al [27] | Lyrics, Audio Excerpts, Artist IDs | 433936 | Music Generation |  |  |
 | MUSIC21 | Audio, Video | 365 | Music Generation |  Music Generation  |
 | Poltronieri et al [28] | Audio, Annotations | 18 | Music Generation |  |  |
-| **Music Similarity** | | | | | |
-| Gu et al [29] | Audio, Video, IMU Data | 20 | Music Exploration and Discovery |  |  |
+| Gu et al [29] | Audio, Video, IMU Data | 20 | Music Exploration and Discovery | Music Similarity |
 | Poliner et al | Audio, MIDI | 130 | Music Exploration and Discovery |  |  |
 | Perez-Carillo et al [30] | Audio, 3D Motion Data, Musical Score Information | 10 | Music Exploration and Discovery |  |  |
 | MSD | Audio, Text, Annotations | 1000000 | Music Exploration and Discovery |  |  |
@@ -105,11 +107,16 @@ The list is being continuously updated. To contribute, please contact: a.m.chris
 | DALI [32] | Audio, Lyrics | 5358 | Multi-Task |  |  |
 | ENST-Drums [33] | Audio, Video, Text, Music Scores, MIDI, Annotations | 187 | Multi-Task |  |  |
 | IDMT-SMT [54] | Audio, Text (annotations) | 64702 | Multi-Task |  |  |
+| Maestro [65] | Audio, MIDI, Annotations | 200 hours of piano recordings | Multi-Task |  |  
+| MAST rhythm dataset [63] | Audio, Annotations (rhythmic patterns) | 3721 | Multi-Task |  |  
+| MagnaTagATune [64] | Audio, Annotations | 25863 | Multi-Task |  |  
 | MedleyDB [34] | Audio, Genre Labels, Note Annotations | 122 | Multi-Task |  |  |
 | MTD [61] | Audio, Metadata, MIDI | 2048  | Multi-Task |  |  |
 | NSynth [59] | Audio, Note Annotations | 305979 | Multi-Task |  |  |
 | RWC [35] | Audio, Video, Text, Music Scores, MIDI, Annotations | 3544 | Multi-Task |  |  |
-| SDD | Audio, Captions | 1100 | Multi-Task |  |  |
+| SDD [70] | Audio, Captions | 1100 | Multi-Task |  |  |
+| SWD [68] | lyrics, music scores in image, symbolic, and MIDI format, audio, annotations (musical measure positions, analyses of chords, local keys, global keys, and structural parts) | 24 songs | Multi-Task |  |  |
+| URBAN-SED [69] | Audio, Sound Event Annotations | 10000 | Multi-Task |  |  |
 | Essid et al [36] | Audio |  | Multi-Task |  |  |
 
 # Availability
@@ -166,7 +173,7 @@ If you find this useful for your research, please consider citing our work:
 - [7] Laurier C, Grivolla J, Herrera P (2008) Multimodal music mood classification using audio and lyrics. 
 - [8] Trochidis K, Tsoumakas G, Kalliris G, et al (2008) Multilabel classification of music into emotions. 
 - [9] Turnbull DR, Barrington L, Lanckriet G, et al (2009) Combining audio content and social context for semantic music discovery. 
-- [10]  Bertin-Mahieux T, Ellis DPW, Whitman B, et al (2011) The million song dataset. 
+- [10] Bertin-Mahieux T, Ellis DPW, Whitman B, et al (2011) The million song dataset. 
 - [11] MSD-I, The Million Song Dataset
 - [12] Mayer R, Rauber A (2010) Multimodal aspects of music retrieval: audio, song lyrics - and beyond?
 - [13] Orio N, Rizo D, Miotto R, et al (2011) MusiClef: a benchmark activity in multimodal music information retrieval. 
@@ -218,5 +225,14 @@ If you find this useful for your research, please consider citing our work:
 - [59] Engel, J. et al., (2017). "Neural Audio Synthesis of Musical Notes with WaveNet Autoencoders."
 - [60] Schedl, M., et al., (2013). "A Professionally Annotated and Enriched Multimodal Data Set on Popular Music".
 - [61] Zalkow, F., et al., (2020). "MTD: A Multimodal Dataset of Musical Themes for MIR Research".
+- [62] Glover, J., et al., (2011). "Real-time Detection of Musical Onsets with Linear Prediction and Sinusoidal Modelling."
+- [63] Baysal, O., et al., (2019). MAST rhythm dataset (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.2620357.
+- [64] E. Law, et al., (2009). Evaluation of algorithms using games: the case of music annotation.
+- [65] C. Hawthorne, et al., (2019). "Enabling Factorized Piano Music Modeling and Generation with the MAESTRO Dataset."
+- [66] Ganseman, J., et al., (2010). "Evaluation of a score-informed source separation system."
+- [67] Manilow, E., et al., (2019). "Cutting Music Source Separation Some {Slakh}: A Dataset to Study the Impact of Training Data Quality and Quantity."
+- [68] C. Weiß, et al., (2020). Schubert Winterreise Dataset [Data set].
+- [69] J. Salamon, et al. (2017). Scaper: A Library for Soundscape Synthesis and Augmentation.
+- [70] I. Manco, et al., (2023). The Song Describer Dataset: a Corpus of Audio Captions for Music-and-Language Evaluation.
 
 For any inquiries or suggestions, please contact [a.m.christodoulou@imv.uio.no].
