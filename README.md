@@ -10,7 +10,7 @@
 <sup>1</sup> RITMO, UiO 
 
 
-This repository contains information and supplementary materials for the paper titled "Defining Multimodal Music Datasets and Addressing Challenges in Their Construction and Evaluation."
+This repository contains information and supplementary materials for the paper titled "Multimodal Music Datasets? Challenges and Future Goals in Music Processing"
 
 ![alt text](Fig1.png)
 
@@ -47,6 +47,8 @@ The list is being continuously updated. To contribute, please contact: a.m.chris
 | TROMPA-MER [3] | Audio, Text (Lyrics, Participant Information) | 1161 | Emotion/Affect Recognition |  |  |
 | MERP [4] | Audio, Labels, Text (Lyrics, Participant Information) | 54 | Emotion/Affect Recognition |  |  |
 | NAVER Music | Audio, Images | 7484 | Emotion/Affect Recognition |  |  |
+| OpenBMAT [57] | Audio, Annotations | 1647 | Music Detection |  |  |
+| OpenMIC-2018 [58] | Audio, Annotations | 20000 | Instrument Recognition |  |  |
 | PMEmo [5] | Audio, Images, Physiological Data | 794 | Emotion/Affect Recognition |  |  |
 | Hu et al [6] | Audio, Text (Descriptive Labels, Lyrics, Participant Information) | 8784 | Genre Classification |  |  |
 | IRMAS [55] | Audio, Text (Instrument annotation) | 2874 | Instrument Recognition |  |  |
@@ -64,6 +66,7 @@ The list is being continuously updated. To contribute, please contact: a.m.chris
 | Saraga Music Research | Audio, Annotations | 563 | Genre Classification |  |  |
 | Sarasua [15] | Audio, Video, Motion Capture, Physiological Data (EMG, ECG), Text, MIDI | 211 | Emotion/Affect Recognition |  |  |
 | Chang et al [16] | Audio, Video, Motion Capture, Physiological Data (EMG, ECG), Text, MIDI |  | Auto-Tagging |  |  |
+| MusiClef 2012 [60] | Audio, Text, Annotations | 1355  | Auto-Tagging |  |  |
 | Vocal92 [17] | Audio, Text, Annotations | 4453 | Singing Voice Analysis |  |  |
 | MTG Jamendo [18] | Audio, Annotations | 55701 | Genre Classification |  |  |
 | ASAP [41] | Audio, MIDI, MusicXML | 1068 MIDI files, 520 audio files, 222 scores  | Music Transcription  | Time-Dependent Representation  |
@@ -80,6 +83,7 @@ The list is being continuously updated. To contribute, please contact: a.m.chris
 | MAPS [24] | Audio, MIDI |  | Music Transcription |  |  |
 | MIREX multif0 | Audio, Annotations |  | Music Transcription |  |  |
 | Norwegian Hardanger Fiddle [25] | Audio, Annotations | 60 | Music Transcription |  |  |
+| ORCHSET [56] | Audio, Annotations | 64 | Music Transcription (Melody Extraction) |  |  |
 | AtinPiano [26] | Audio, Video |  | Piano Tutoring |  |  |
 | Watanabe et al [27] | Lyrics, Audio Excerpts, Artist IDs | 433936 | Music Generation |  |  |
 | MUSIC21 | Audio, Video | 365 | Music Generation |  Music Generation  |
@@ -102,6 +106,8 @@ The list is being continuously updated. To contribute, please contact: a.m.chris
 | ENST-Drums [33] | Audio, Video, Text, Music Scores, MIDI, Annotations | 187 | Multi-Task |  |  |
 | IDMT-SMT [54] | Audio, Text (annotations) | 64702 | Multi-Task |  |  |
 | MedleyDB [34] | Audio, Genre Labels, Note Annotations | 122 | Multi-Task |  |  |
+| MTD [61] | Audio, Metadata, MIDI | 2048  | Multi-Task |  |  |
+| NSynth [59] | Audio, Note Annotations | 305979 | Multi-Task |  |  |
 | RWC [35] | Audio, Video, Text, Music Scores, MIDI, Annotations | 3544 | Multi-Task |  |  |
 | SDD | Audio, Captions | 1100 | Multi-Task |  |  |
 | Essid et al [36] | Audio |  | Multi-Task |  |  |
@@ -151,61 +157,66 @@ If you find this useful for your research, please consider citing our work:
 ```
 
 **References:**
-- [1] Defferrard M, Benzi K, Vandergheynst P, et al (2017) FMA: a dataset for music analysis. https://doi.org/10.48550/arXiv.1612.01840, arXiv:1612.01840
-- [2] Thao HTP, Roig G, Herremans D (2023) EmoMV: affective music-video correspondence learning datasets for classification and retrieval. Inf Fusion 91:64–79. https://doi.org/10.1016/j.inffus.2022.10.002
-- [3] Gómez-Cañón JS, Gutiérrez-Páez N, Porcaro L et al (2023) TROMPA-MER: an open dataset for personalized music emotion recognition. J Intell Inf Syst 60(2):549–570. https://doi.org/10.1007/s10844-022-00746-0
-- [4] Koh EY, Cheuk KW, Heung KY et al (2022) MERP: a music dataset with emotion ratings and raters’ profile information. Sensors (Basel) 23(1):382. https://doi.org/10.3390/s23010382
-- [5] Zhang K, Zhang H, Li S, et al (2018) The PMEmo dataset for music emotion recognition. In: Proceedings of the 2018 ACM on International Conference on Multimedia Retrieval, pp 135–142, https://doi.org/10.1145/3206025.3206037
-- [6] Hu X, Downie JS, Ehmann AF (2009) Lyric text mining in music mood classification. In: 10th international society for music information retrieval conference, pp 411–416
-- [7] Laurier C, Grivolla J, Herrera P (2008) Multimodal music mood classification using audio and lyrics. In: 2008 seventh international conference on machine learning and applications. IEEE, San Diego, CA, USA, pp 688–693, https://doi.org/10.1109/ICMLA.2008.96
-- [8] Trochidis K, Tsoumakas G, Kalliris G, et al (2008) Multilabel classification of music into emotions. In: Proceedings 9th international conference on music information retrieval
-- [9] Turnbull DR, Barrington L, Lanckriet G, et al (2009) Combining audio content and social context for semantic music discovery. In: Proceedings of the 32nd international ACM SIGIR conference on research and development in information retrieval. ACM, Boston MA USA, pp 387–394, https://doi.org/10.1145/1571941.1572009
-- [10]  Bertin-Mahieux T, Ellis DPW, Whitman B, et al (2011) The million song dataset. In: Proceedings of the 12th international society for music information retrieval conference, pp 591–596, https://doi.org/10.7916/D8NZ8J07
-- [11]  MSD-I, The Million Song Dataset
-- [12] Mayer R, Rauber A (2010) Multimodal aspects of music retrieval: audio, song lyrics - and beyond? In: Kacprzyk J, Raś ZW, Wieczorkowska AA (eds) Advances in music information retrieval, vol 274. Springer, Berlin, Heidelberg, pp 333–363. https://doi.org/10.1007/978-3-642-11674-2_15
-- [13] Orio N, Rizo D, Miotto R, et al (2011) MusiClef: a benchmark activity in multimodal music information retrieval. In: Proceedings of the 12th international society for music information retrieval conference
-- [14] Schindler A, Rauber A (2017) Harnessing music-related visual stereotypes for music information retrieval. ACM Trans Intell Syst Technol 8(2):1–21. https://doi.org/10.1145/2926719
-- [15] Sarasúa Á, Caramiaux B, Tanaka A, et al (2017) Datasets for the analysis of expressive musical gestures. In: Proceedings of the 4th international conference on movement computing. ACM, London United Kingdom, pp 1–4, https://doi.org/10.1145/3077981.3078032
-- [16] Chang X, Peng L (2022) Intelligent analysis and classification of piano music gestures with multimodal recordings. Comput Intell Neurosci 2022:8232819. https://doi.org/10.1155/2022/8232819
-- [17] Deng Z, Zhou R (2023) Vocal92: multimodal audio dataset with a cappella solo singing and speech. IEEE Access pp 1–1. https://doi.org/10.1109/ACCESS.2023.3253207
-- [18] Bogdanov D, Won M, Tovstogan P, et al (2019) The MTG-Jamendo dataset for automatic music tagging. In: Proceedings of the 36 Th international conference on machine learning, https://doi.org/10.5281/zenodo.3826812
-- [19] Benetos E, Klapuri A, Dixon S (2012) Score-informed transcription for automatic piano tutoring. In: Proceedings of the 20th European Signal Processing Conference, pp 2153–2157
-- [20] Cheng HT, Yang YH, Lin YC, et al (2009) Multimodal structure segmentation and analysis of music using audio and textual information. In: 2009 IEEE international symposium on circuits and systems. IEEE, Taipei, Taiwan, pp 1677–1680, https://doi.org/10.1109/ISCAS.2009.5118096
-- [21] Hargreaves S, Klapuri A, Sandler M (2012) Structural segmentation of multitrack audio. IEEE Trans Audio Speech Lang Process 20(10):2637–2647. https://doi.org/10.1109/TASL.2012.2209419
-- [22] Gregorio J, Kim YE (2016) Phrase-level audio segmentation of jazz improvizations informed by symbolic data. In: Proceedings of the 17th international society for music information retrieval conference, New York, NY, USA, pp 482–487, https://doi.org/10.5281/zenodo.1414790
-- [23] Calvo-Zaragoza J, Rizo D (2018) Camera-PrIMuS: neural end-to-end optical music recognition on realistic monophonic scores. In: Proceedings of the 19th international society for music information retrieval conference, pp 248–255, https://doi.org/10.5281/zenodo.1492394
-- [24] Emiya V, Bertin N, David B et al (2008) MAPS - A piano database for multipitch estimation and automatic transcription of music. Tech. rep, Telecom Paris Tech
-- [25] Lartillot O, Johansson MS, Elowsson A et al (2023) A dataset of Norwegian Hardanger fiddle recordings with precise annotation of note and beat onsets. TISMIR 6(1):186–202. https://doi.org/10.5334/tismir.139
-- [26] Gan C, Huang D, Chen P et al (2020) Foley music: learning to generate music from videos. In: Vedaldi A, Bischof H, Brox T et al (eds) Computer Vision - ECCV 2020. Lecture Notes in Computer Science. Springer International Publishing, Cham, pp 758–775. https://doi.org/10.1007/978-3-030-58621-8_44
-- [27] Watanabe K, Goto M (2019) Query-by-blending: a music exploration system blending latent vector representations of lyric word, song audio, and artist. In: Proceedings of the 20th international society for music information retrieval conference, https://doi.org/10.5281/zenodo.3527761
-- [28] Poltronieri A (2023) Knowledge-based multimodal music similarity. In: Lecture notes in computer science, pp 224–233, https://doi.org/10.1007/978-3-031-43458-7_41
-- [29] Gu X, Ou L, Ong D, et al (2022) MM-ALT: A multimodal automatic lyric transcription system. In: Proceedings of the 30th ACM international conference on multimedia. Association for computing machinery, New York, NY, USA, MM ’22, pp 3328–3337, https://doi.org/10.1145/3503161.3548411
-- [30] Perez-Carrillo A, Arcos JL, Wanderley M (2016) Estimation of guitar fingering and plucking controls based on multimodal analysis of motion, audio and musical score. In: Kronland-Martinet R, Aramaki M, Ystad S (eds) Music, mind, and embodiment, vol 9617. Springer International Publishing, Cham, pp 71–87. https://doi.org/10.1007/978-3-319-46282-0_5
-- [31] Moscati M, Parada-Cabaleiro E, Deldjoo Y, et al (2022) Music4All-onion—a large-scale multi-faceted content-centric music recommendation dataset. In: Proceedings of the 31st ACM international conference on information and knowledge management. ACM, Atlanta GA USA, pp 4339–4343. https://doi.org/10.1145/3511808.3557656
-- [32] Meseguer-Brocal G, Cohen-Hadria A, Peeters G (2018) DALI: A large dataset of synchronized audio, lyrics and notes, automatically created using teacher-student machine learning paradigm. In: Proceedings of the 19th international society for music information retrieval conference. Zenodo, https://doi.org/10.5281/ZENODO.1492443
-- [33] Gillet O, Richard G (2006) ENST-Drums: an extensive audio-visual database for drum signals processing. In: 7th international conference on music information retrieval. Victoria, Canada, pp 156–159
-- [34] Bittner R, Salamon J, Tierney M, et al (2014) MedleyDB: A multitrack dataset for annotation-intensive MIR research. In: Proceedings - 15th international society for music information retrieval conference (ISMIR 2014)
-- [35] Goto M, Hashiguchi H, Nishimura T, et al (2002) RWC music database: music genre database and musical instrument sound database. In: Proceedings of the 3rd international society for music information retrieval conference, pp 287–288
-- [36] Essid S, Richard G (2012) Fusion of multimodal information in music content analysis. Multimodal Music Process 3:16. https://doi.org/10.4230/DFU.VOL3.11041.37
-- [37] G. Poliner, D. Ellis (2005). A Classification Approach to Melody Transcription. Proc. Int. Conf. on Music Info. Retrieval ISMIR-05, London, September 2005. (6pp)
-- [38] Naoya Takahashi, Michael Gygli, Beat Pfister and Luc Van Gool, "Deep Convolutional Neural Networks and Data Augmentation for Acoustic Event Recognition", 
- Proc. Interspeech 2016, San Fransisco. https://data.vision.ee.ethz.ch/cvl/ae_dataset/
-- [39] Shuhei Tsuchida, Satoru Fukayama, Masahiro Hamasaki and Masataka Goto. AIST Dance Video Database: Multi-genre, Multi-dancer, and Multi-camera Database for Dance Information Processing. In Proceedings of the 20th International Society for Music Information Retrieval Conference (ISMIR 2019), 2019.
-- [40] Y. -A. Chen, Y. -H. Yang, J. -C. Wang and H. Chen, "The AMG1608 dataset for music emotion recognition," 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), South Brisbane, QLD, Australia, 2015, pp. 693-697, doi: 10.1109/ICASSP.2015.7178058.
-- [41] Foscarin, F., Mcleod, A., Rigaux, P., Jacquemard, F., & Sakai, M. (2020). ASAP: a dataset of aligned scores and performances for piano transcription. International Society for Music Information Retrieval Conference.
-- [42] J. F. Gemmeke et al., "Audio Set: An ontology and human-labeled dataset for audio events," 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), New Orleans, LA, USA, 2017, pp. 776-780, doi: 10.1109/ICASSP.2017.7952261.
+- [1] Defferrard M, Benzi K, Vandergheynst P, et al (2017) FMA: a dataset for music analysis. 
+- [2] Thao HTP, Roig G, Herremans D (2023) EmoMV: affective music-video correspondence learning datasets for classification and retrieval. 
+- [3] Gómez-Cañón JS, Gutiérrez-Páez N, Porcaro L et al (2023) TROMPA-MER: an open dataset for personalized music emotion recognition. 
+- [4] Koh EY, Cheuk KW, Heung KY et al (2022) MERP: a music dataset with emotion ratings and raters’ profile information. 
+- [5] Zhang K, Zhang H, Li S, et al (2018) The PMEmo dataset for music emotion recognition. 
+- [6] Hu X, Downie JS, Ehmann AF (2009) Lyric text mining in music mood classification. 
+- [7] Laurier C, Grivolla J, Herrera P (2008) Multimodal music mood classification using audio and lyrics. 
+- [8] Trochidis K, Tsoumakas G, Kalliris G, et al (2008) Multilabel classification of music into emotions. 
+- [9] Turnbull DR, Barrington L, Lanckriet G, et al (2009) Combining audio content and social context for semantic music discovery. 
+- [10]  Bertin-Mahieux T, Ellis DPW, Whitman B, et al (2011) The million song dataset. 
+- [11] MSD-I, The Million Song Dataset
+- [12] Mayer R, Rauber A (2010) Multimodal aspects of music retrieval: audio, song lyrics - and beyond?
+- [13] Orio N, Rizo D, Miotto R, et al (2011) MusiClef: a benchmark activity in multimodal music information retrieval. 
+- [14] Schindler A, Rauber A (2017) Harnessing music-related visual stereotypes for music information retrieval. 
+- [15] Sarasúa Á, Caramiaux B, Tanaka A, et al (2017) Datasets for the analysis of expressive musical gestures. 
+- [16] Chang X, Peng L (2022) Intelligent analysis and classification of piano music gestures with multimodal recordings. 
+- [17] Deng Z, Zhou R (2023) Vocal92: multimodal audio dataset with a cappella solo singing and speech. 
+- [18] Bogdanov D, Won M, Tovstogan P, et al (2019) The MTG-Jamendo dataset for automatic music tagging. 
+- [19] Benetos E, Klapuri A, Dixon S (2012) Score-informed transcription for automatic piano tutoring. 
+- [20] Cheng HT, Yang YH, Lin YC, et al (2009) Multimodal structure segmentation and analysis of music using audio and textual information. 
+- [21] Hargreaves S, Klapuri A, Sandler M (2012) Structural segmentation of multitrack audio. 
+- [22] Gregorio J, Kim YE (2016) Phrase-level audio segmentation of jazz improvizations informed by symbolic data. 
+- [23] Calvo-Zaragoza J, Rizo D (2018) Camera-PrIMuS: neural end-to-end optical music recognition on realistic monophonic scores. 
+- [24] Emiya V, Bertin N, David B et al (2008) MAPS - A piano database for multipitch estimation and automatic transcription of music. 
+- [25] Lartillot O, Johansson MS, Elowsson A et al (2023) A dataset of Norwegian Hardanger fiddle recordings with precise annotation of note and beat onsets. 
+- [26] Gan C, et al. (2020) Foley music: learning to generate music from videos. 
+- [27] Watanabe K, Goto M (2019) Query-by-blending: a music exploration system blending latent vector representations of lyric word, song audio, and artist. 
+- [28] Poltronieri A (2023) Knowledge-based multimodal music similarity. 
+- [29] Gu X, et al., (2022) MM-ALT: A multimodal automatic lyric transcription system. 
+- [30] Perez-Carrillo A, et al., (2016) Estimation of guitar fingering and plucking controls based on multimodal analysis of motion, audio and musical score. 
+- [31] Moscati M, et al. (2022) Music4All-onion—a large-scale multi-faceted content-centric music recommendation dataset. 
+- [32] Meseguer-Brocal G, et al., (2018) DALI: A large dataset of synchronized audio, lyrics and notes, automatically created using teacher-student machine learning paradigm.
+- [33] Gillet O, Richard G (2006) ENST-Drums: an extensive audio-visual database for drum signals processing. 
+- [34] Bittner R, et al. (2014). SMedleyDB: A multitrack dataset for annotation-intensive MIR research. 
+- [35] Goto M, et al., (2002). RWC music database: music genre database and musical instrument sound database. 
+- [36] Essid S, Richard G (2012) Fusion of multimodal information in music content analysis. 
+- [37] G. Poliner, D. Ellis (2005). A Classification Approach to Melody Transcription. 
+- [38] N. Takahashi, et al., (2016). "Deep Convolutional Neural Networks and Data Augmentation for Acoustic Event Recognition".
+- [39] S. Tsuchida, et al., (2019). AIST Dance Video Database: Multi-genre, Multi-dancer, and Multi-camera Database for Dance Information Processing. 
+- [40] A. Chen, et al., (2015). "The AMG1608 dataset for music emotion recognition." 
+- [41] Foscarin, F., et al., (2020). ASAP: a dataset of aligned scores and performances for piano transcription. 
+- [42] J. F. Gemmeke et al., (2017). "Audio Set: An ontology and human-labeled dataset for audio events.".
 - [43] https://mtg.upf.edu/ismir2004/contest/tempoContest/node5.html
-- [44] Changhong Wang, Emmanouil Benetos, & Elaine Chew. (2019). CBFdataset: A Dataset of Chinese Bamboo Flute Performances (1.0) [Data set]. International Society for Music Information Retrieval Conference (ISMIR), Delft, The Netherlands. Zenodo. https://doi.org/10.5281/zenodo.3250223
-- [45] Sebastian Rosenzweig, Helena Cuesta, Christof Weiß, Frank Scherbaum, Emilia Gómez, and Meinard Müller, Dagstuhl ChoirSet: A Multitrack Dataset for MIR Research on Choral Singing, Transactions of the International Society for Music Information Retrieval (TISMIR), 3(1): 98–110, 2020.
+- [44] C. Wang, et al., (2019). CBFdataset: A Dataset of Chinese Bamboo Flute Performances (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3250223
+- [45] S. Rosenzweig, et al., (2020). Dagstuhl ChoirSet: A Multitrack Dataset for MIR Research on Choral Singing.
 - [46] Soleymani et al., https://cvml.unige.ch/databases/DEAM/
 - [47] https://cvml.unige.ch/databases/emoMusic/
-- [48] A. Aljanaki, F. Wiering, R. C. Veltkamp. Studying emotion induced by music through a crowdsourcing game. Information Processing & Management, 2015.
-- [49] Sebastian Rosenzweig, Frank Scherbaum, David Shugliashvili, Vlora Arifi-Müller, and Meinard Müller, Erkomaishvili Dataset: A Curated Corpus of Traditional Georgian Vocal Music for Computational Musicology, Transactions of the International Society for Music Information Retrieval (TISMIR), 3(1): 31–41, 2020.
-- [50] Karydis et al., 2015. The Greek Music Dataset. https://cir.di.ionio.gr/karydis/my_papers/MKarydisS2015%20-%20The%20Greek%20Music%20Dataset.pdf
-- [51] Gillick et al., 2019. Learning to Groove with Inverse Sequence Transformations. https://magenta.tensorflow.org/datasets/groove
-- [52] Q. Xi, R. Bittner, J. Pauwels, X. Ye, and J. P. Bello, "​Guitarset: A Dataset for Guitar Transcription", in 19th International Society for Music Information Retrieval Conference, Paris, France, Sept. 2018.
-- [53] Homburg, Helge and Mierswa,Ingo and Moller, Bulent and Morik, Katharina and Wurst, Michael. A Benchmark Dataset for Audio Classification and Clustering. In Joshua D. Reiss and Geraint A. Wiggins (editors), Proc. of the International Symposium on Music Information Retrieval 2005, pages 528--531, London, UK, Queen Mary University, 2005.
+- [48] A. Aljanaki, et al., (2015). Studying emotion induced by music through a crowdsourcing game. 
+- [49] S.Rosenzweig, et al., (2020). Erkomaishvili Dataset: A Curated Corpus of Traditional Georgian Vocal Music for Computational Musicology
+- [50] Karydis et al., (2015). The Greek Music Dataset. https://cir.di.ionio.gr/karydis/my_papers/MKarydisS2015%20-%20The%20Greek%20Music%20Dataset.pdf
+- [51] Gillick et al., (2019). Learning to Groove with Inverse Sequence Transformations. https://magenta.tensorflow.org/datasets/groove
+- [52] Q. Xi, et al., (2018). "​Guitarset: A Dataset for Guitar Transcription"
+- [53] Homburg, Helge et al. (2005). A Benchmark Dataset for Audio Classification and Clustering
 - [54] https://www.idmt.fraunhofer.de/en/publications/datasets.html
-- [55] Bosch, J. J., Janer, J., Fuhrmann, F., & Herrera, P. “A Comparison of Sound Segregation Techniques for Predominant Instrument Recognition in Musical Audio Signals”, in Proc. ISMIR (pp. 559-564), 2012
+- [55] Bosch, J. J., et al., (2012). “A Comparison of Sound Segregation Techniques for Predominant Instrument Recognition in Musical Audio Signals”
+- [56] Bosch, J., et al. (2016), “Evaluation and Combination of Pitch Estimation Methods for Melody Extraction in Symphonic Classical Music”, Journal of New Music Research 
+- [57] Meléndez-Catalán, B., et al. (2019). https://doi.org/10.5281/zenodo.3381249
+- [58] Humphrey, E. J., et al. (2018). OpenMIC-2018 (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.1432913
+- [59] Engel, J. et al., (2017). "Neural Audio Synthesis of Musical Notes with WaveNet Autoencoders."
+- [60] Schedl, M., et al., (2013). "A Professionally Annotated and Enriched Multimodal Data Set on Popular Music".
+- [61] Zalkow, F., et al., (2020). "MTD: A Multimodal Dataset of Musical Themes for MIR Research".
 
 For any inquiries or suggestions, please contact [a.m.christodoulou@imv.uio.no].
